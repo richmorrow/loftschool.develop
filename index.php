@@ -8,4 +8,5 @@ $connection = new PDO("mysql:host=localhost;dbname=test;charset=utf8","root","")
 $query = "INSERT users (name, age, login, password) VALUE ('Leslie', '23', 'lesl223', '123')";
 $count = $connection->exec($query);
 
-echo $count;
+//echo $count;
+echo 'hello world!';
